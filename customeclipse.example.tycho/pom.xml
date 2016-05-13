@@ -46,13 +46,13 @@
 	
 	<profiles>
 		<profile>
-			<id>luna</id>
+			<id>mars</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
 
 			<properties>
-				<target-file-name>luna</target-file-name>
+				<target-file-name>mars</target-file-name>
 			</properties>
 		</profile>
 
@@ -70,7 +70,7 @@
 			</activation>
 
 			<properties>
-				<target-file-name>luna</target-file-name>
+				<target-file-name>mars</target-file-name>
 			</properties>
 
 			<modules>
@@ -223,9 +223,9 @@
 						<appArgLine>-application org.eclipse.ant.core.antRunner -buildfile ${ant-files-path}/packaging-p2composite.ant p2.composite.add -Dupdates.dir=${updates.dir} -Dsite.label="${site.label}" -Dproject.build.directory=${project.build.directory} -DunqualifiedVersion=${unqualifiedVersion} -DbuildQualifier=${buildQualifier}</appArgLine>
 						<repositories>
 							<repository>
-								<id>luna</id>
+								<id>mars</id>
 								<layout>p2</layout>
-								<url>http://download.eclipse.org/releases/luna</url>
+								<url>http://download.eclipse.org/releases/mars</url>
 							</repository>
 						</repositories>
 						<dependencies>
