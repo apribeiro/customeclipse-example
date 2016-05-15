@@ -22,6 +22,7 @@
       <import feature="org.eclipse.jdt" version="3.11.0.v20150603-2000" match="greaterOrEqual"/>
       <import feature="org.eclipse.platform" version="4.5.0.v20150603-2358" match="greaterOrEqual"/>
       <import plugin="org.eclipse.sdk"/>
+      <import plugin="org.eclipse.xtext"/>
    </requires>
 
 </feature>
