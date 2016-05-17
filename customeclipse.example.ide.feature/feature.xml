@@ -18,20 +18,10 @@
    </license>
 
    <requires>
-      <import feature="customeclipse.example.feature" version="1.0.0.qualifier" match="greaterOrEqual"/>
+      <!--<import feature="customeclipse.example.feature" version="1.0.0.qualifier" match="greaterOrEqual"/>-->
       <import feature="org.eclipse.jdt" version="3.11.0.v20150603-2000" match="greaterOrEqual"/>
       <import feature="org.eclipse.platform" version="4.5.0.v20150603-2358" match="greaterOrEqual"/>
       <import plugin="org.eclipse.sdk"/>
-      <!--<import feature="org.eclipse.xtend.sdk" version="2.8.4.v201508050135"/>
-      <import feature="org.eclipse.xtext.xbase" version="2.8.4.v201508050135"/>
-      <import feature="org.eclipse.xtext.xbase.lib" version="2.8.4.v201508050135"/>
-      <import feature="org.eclipse.xtext.xbase.lib.source" version="2.8.4.v201508050135"/>
-      <import feature="org.eclipse.xtext.xbase.source" version="2.8.4.v201508050135"/>
-      <import feature="org.eclipse.xtext.sdk" version="2.8.4.v201508050135"/>
-      <import feature="org.eclipse.xtext.ui" version="2.8.4.v201508050135"/>
-      <import feature="org.eclipse.xtext.ui.source" version="2.8.4.v201508050135"/>
-      <import feature="org.eclipse.xtext.xtext.ui" version="2.8.4.v201508050135"/>
-      <import feature="org.eclipse.xtext.xtext.ui.source" version="2.8.4.v201508050135"/>-->
    </requires>
 
 </feature>

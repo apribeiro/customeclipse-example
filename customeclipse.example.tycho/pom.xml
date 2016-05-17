@@ -8,9 +8,9 @@
 
 	<modules>
 		<module>../customeclipse.example.targetplatform</module>
-		<module>../customeclipse.example.plugin</module>
+		<!-- <module>../customeclipse.example.plugin</module>
 		<module>../customeclipse.example.feature</module>
-		<module>../customeclipse.example.site</module>
+		<module>../customeclipse.example.site</module> -->
 		<module>../customeclipse.example.ide.feature</module>
 	</modules>
 
